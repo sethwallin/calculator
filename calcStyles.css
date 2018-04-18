@@ -1,16 +1,28 @@
 .button {
-	
+	border-radius: 7px;
 }
 
 #calculator {
-	width: 400px;
+	width: 300px;
+	height: 420px;
 	margin: auto auto;
+	padding: 10px;
 	display: grid;
-	grid-template: repeat(6, 40px) / repeat(4, 1fr);
+	grid-template: 60px repeat(5, 40px) / repeat(4, 1fr);
+	grid-gap: 4px;
+	background-color: lightgrey;
 }
 
 #display {
 	grid-column: 1 / span 4;
+	border-radius: 10px;
+	border: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+}
+
+.orange {
+	background-color: orange;
 }
 
 #clear {
